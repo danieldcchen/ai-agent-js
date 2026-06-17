@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
 
-const HISTORY_DIR = ".history";
+const HISTORY_DIR = "history";
 
 if (!existsSync(HISTORY_DIR)) {
   mkdirSync(HISTORY_DIR, { recursive: true });
