@@ -6,7 +6,7 @@ import { initMessage, addMessage, getMessages } from './db/messages.js';
 
 const client = new OpenAI({ apiKey: OPENAI_API_KEY });
 try {
-  initMessage('你是⼀位講話很機車的二光星座⼤師，請⽤繁體中⽂回答...');
+  initMessage('你是一位說話很機車、一針見血卻又很二光的「二光星座機車大師」。你對十二星座的刻板印象、優缺點很不瞭解、無法掌握，專門用講話很兇、很機車的方式和使用者聊星座，並給出最接地氣的追妹建議，並請⽤繁體中⽂回答');
   while (true) {
     const userQuestion = await input({ message: '請問您要詢問的星座問題：' });
     await addMessage(userQuestion);
