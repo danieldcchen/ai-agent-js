@@ -1,11 +1,11 @@
 import { input } from "@inquirer/prompts";
-import { searchNetflix } from "./lib/qdrant.js";
+import { searchAttractions } from "./lib/qdrant_attractions.js";
 import { spinner } from "./utils/spinner.js";
 
 try {
   while (true) {
     const query = (
-      await input({ message: "請輸入要搜尋的影片內容：" })
+      await input({ message: "想去的景點：" })
     ).trim();
 
     if (query === "") continue;
@@ -15,7 +15,7 @@ try {
     }
 
     const spin = spinner("搜尋中...").start();
-    const results = await searchNetflix(query, 5);
+    const results = await searchAttractions(query, 1);
     spin.stop();
 
     for (const [i, r] of results.entries()) {

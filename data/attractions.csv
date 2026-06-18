@@ -1,0 +1,6 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+AT001,Documentary,阿里山國家風景區,台灣觀光局,阿里山鐵路,Taiwan,2024-06-01,2024,PG,120 min,Travel | Nature | Cultural,阿里山位於嘉義縣，以日出、雲海、晚霞、森林、花季聞名。搭乘百年古蹟阿里山森林鐵路，穿越壯麗的檜木林，欣賞高山茶園風光。最適合春季賞櫻和冬季賞日出。
+AT002,Documentary,日月潭國家風景區,台灣觀光局,日月潭水上活動,Taiwan,2024-06-01,2024,G,110 min,Travel | Nature | Scenic,日月潭位於南投縣，是台灣最大的高山湖泊。湖光山色優美，可環湖騎行、搭船遊湖或登山健行。景區內有九族文化村、文武廟等景點，是渡假的絕佳去處。
+AT003,Documentary,太魯閣國家公園,台灣觀光局,太魯閣大峽谷,Taiwan,2024-06-01,2024,PG,130 min,Travel | Adventure | Nature,太魯閣位於花蓮縣，以雄偉的大理石峽谷著稱。燕子口步道、朱紅懸崖、天祥中橫公路等景觀壯麗。適合登山、健行、攝影愛好者，是台灣最壯觀的自然奇景。
+AT004,Documentary,墾丁國家公園,台灣觀光局,墾丁海灘水上運動,Taiwan,2024-06-01,2024,PG,100 min,Travel | Beach | Adventure,墾丁位於屏東縣，是台灣唯一的熱帶國家公園。擁有白沙灘、珊瑚礁、豐富的海洋生態。適合衝浪、潛水、浮潛，每年冬季有強烈東北風，吸引風帆愛好者。
+AT005,Documentary,陽明山國家公園,台灣觀光局,陽明山步道,Taiwan,2024-06-01,2024,G,90 min,Travel | Nature | Hiking,陽明山位於台北市，距市區最近的國家公園。以火山地形、溫泉、芒草花海著稱。涵翠步道、冷水坑步道等多條登山路線，春季杜鵑花盛開，秋季芒草搖曳。
